@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body>
+@include('layouts.header')
+body--<br/>
+@yield('content')
+<br/>
+@include('layouts.footer')
+</body>
+</html>
